@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  width: 150px;
+  height: 150px;
+
+  background-color: red;
+
+  opacity: 0;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
